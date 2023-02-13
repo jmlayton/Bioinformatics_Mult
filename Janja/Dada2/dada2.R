@@ -138,7 +138,7 @@ track$Tot_Perc_Retained <- track$nonchim/track$input
 
 head(track)
 
-track_path <- file.path(out_dir,"track_seq_retention.csv")
+track_path <- file.path(sub("/[^/]+$", "", Multiplexed_Seqs_Directory),"track_seq_retention.csv")
 write.csv(track, file= track_path)
 
 ## ----assign taxa------------------------------------------
