@@ -29,7 +29,10 @@ The pipeline requires 6 predetermined inputs, found in the janja.par file. Set e
 To initalize and run the Janja Pipeline execute the following code:
 
 ```
+cd Bioinformatics_Mult/
 chmod +x ./janja.sh
+```
+```
 ./janja.sh
 ```
 
